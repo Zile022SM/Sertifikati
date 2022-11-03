@@ -1,0 +1,279 @@
+/* *********************************************************BAZA ZNANJA************************************************************/
+
+.post-wrap-h1 {
+	border-top: none!important;
+	border-bottom: 1px solid #9bb1ca!important;
+	background-image: url(../images/b.jpg)
+}
+
+.post-h1 {
+	color: #1a98d5!important;
+	letter-spacing: 3px!important;
+        
+}
+
+.main-post {
+	background: #e2e6ef;
+	background-image: url(../images/back-6.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 30px!important;
+}
+
+.postSum {
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+.post-container {
+	margin-top: 70px!important;
+	margin-bottom: 0!important;
+	background: rgba(255, 255, 255, 1);
+	border-right: 2px solid #bcd742;
+	border-bottom: 2px solid #bcd742;
+	padding: 20px 0;
+	box-shadow: -3px -3px 15px 0px rgba(150, 186, 182, 1);
+	border-radius: 0 35px 35px 0px;
+}
+
+.post-wrap-img {
+	margin-bottom: 0
+}
+
+.blog-date {
+	padding: 5px 0!important;
+}
+
+.blog-date:first-child {
+	margin-top: 15px
+}
+
+.p-objava-naslov,
+.p-datum-naslov {
+	color: #bcd742!important;
+	display: inline!important;
+}
+
+.p-objava,
+.p-datum {
+	display: inline!important;
+}
+
+
+/*naslov posta*/
+
+.post-h2-custom {
+	color: #f7942e!important;
+	margin-bottom: 10px!important;
+	margin-top: 10px!important;
+	font-weight: 300!important;
+	word-spacing: 4px!important;
+}
+
+
+/*tekst posta*/
+
+.blog-short-description {
+	width: 100%
+}
+
+
+/*separator*/
+
+.separator-line {
+	background: #bcd742;
+	margin-top: 15px;
+	margin-bottom: 0!important;
+}
+
+
+/*button -opsirnije*/
+
+.dugme-opsirnije {
+	margin-top: 30px!important;
+}
+
+.highlight-button {
+	border: 2px solid #f7942e!important;
+	background: #1a98d5;
+	color: #fff!important;
+	border-radius: 3px;
+	font-weight: 500!important;
+}
+
+.highlight-button:hover {
+	background: none;
+	color: #1a98d5!important;
+}
+
+
+/*pagination*/
+
+.pagination-custom {
+	padding: 30px 0;
+	border-bottom: 1px solid #9bb1ca!important;
+	border-top: 7px double #f7942e!important;
+}
+
+.pagination-custom>a {
+	margin-left: 10px
+}
+
+.pg-broj {
+	color: #1a98d5;
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+.active-pagin {
+	border: 1px solid #1a98d5;
+}
+
+@media screen and (max-width: 768px) {
+	.main-post {
+		background-image: url(../images/back-6.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		padding-bottom: 20px!important;
+		background-size: 100% 100%;
+		background-size: 180% 120%!important;
+		background-position: left top;
+	}
+	.post-wrap-h1 {
+		border-top: none!important;
+	}
+	.postSum {
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	.post-h1 {
+		margin: 0!important;
+		letter-spacing: 1px!important;
+		word-spacing: 5px!important;
+	}
+	.post-container {
+		margin-top: 20px!important;
+		margin-bottom: 20px!important;
+		border-radius: 0 20px 20px 0px;
+	}
+	.post-h2-custom {
+		font-size: 18px;
+		line-height: 25px;
+		font-weight: 400!important;
+	}
+	.blog-short-description {
+		width: 100%
+	}
+	.p-custom-post {
+		font-size: 16px!important;
+		line-height: 25px!important;
+		font-family: Arial, Helvetica, sans-serif!important;
+		color: #575757!important;
+	}
+}
+
+
+/* *******************************************************IT ZANIMLJIVOSTI**********************************************************/
+
+.post-container-zanimljivosti {
+	border-radius: 0 15px 35px 0px;
+	height: 750px;
+	position: relative;
+}
+
+.post-wrap-img-zanimljivosti {
+	height: 330px;
+}
+
+.blog-details-zanimljivosti {
+	height: 400px;
+	position: relative;
+}
+
+.blog-date-zanimljivosti {
+	height: 35px;
+}
+
+.h2-zanimljivosti {
+	height: 90px
+}
+
+.short-text {
+	height: 150px;
+}
+
+.separator-line-zanimljivosti {
+	position: absolute;
+	bottom: 80px;
+	left: 15px
+}
+
+.dugme-opsirnije-zanimljivosti {
+	position: absolute;
+	bottom: 20px;
+	left: 0
+}
+
+@media screen and (max-width: 991px) {
+	.post-container-zanimljivosti {
+		border-radius: 0 15px 35px 0px;
+		height: auto;
+		position: static;
+	}
+	.post-wrap-img-zanimljivosti {
+		height: auto
+	}
+	.blog-details-zanimljivosti {
+		height: auto;
+		position: static;
+	}
+	.blog-date-zanimljivosti {
+		height: auto;
+	}
+	.h2-zanimljivosti {
+		height: auto
+	}
+	.short-text {
+		height: auto;
+	}
+	.separator-line-zanimljivosti {
+		position: static;
+	}
+	.dugme-opsirnije-zanimljivosti {
+		position: static;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.post-container-zanimljivosti {
+		border-radius: 0 15px 35px 0px;
+		height: 770px;
+		position: relative;
+	}
+	.post-wrap-img-zanimljivosti {
+		height: 260px;
+	}
+	.blog-details-zanimljivosti {
+		height: 470px;
+		position: relative;
+	}
+	.blog-date-zanimljivosti {
+		height: 50px;
+	}
+	.h2-zanimljivosti {
+		height: 120px;
+	}
+	.short-text {
+		height: 150px;
+	}
+	.separator-line-zanimljivosti {
+		position: absolute;
+		bottom: 60px;
+		left: 15px;
+	}
+	.dugme-opsirnije-zanimljivosti {
+		position: absolute;
+		bottom: 0;
+		left: 0
+	}
+}

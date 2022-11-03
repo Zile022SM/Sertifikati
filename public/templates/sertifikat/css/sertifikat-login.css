@@ -1,0 +1,77 @@
+body{
+	background: rgba(117,157,227,0.3);
+	font-family: 'Montserrat',Arial, sans-serif;
+}
+
+.wrapper{
+	background:#fff;
+	height:90vh;
+	position:relative;
+	padding:0!important;
+	margin-top:3%;
+}
+@media (max-width: 425px) {
+	.wrapper{
+		margin-top:5%;	
+		height:85vh;
+	}
+}
+/* -----------------------------------------------div LEFT - RIGHT -corner----------------------------------------------*/
+.left-corner, .right-corner{
+	padding:0!important
+}
+.img-sert{
+	opacity:0.8
+}
+
+.right-corner{
+	position:absolute;
+	bottom:0
+}
+
+/* -----------------------------------------------div LOGO----------------------------------------------*/
+.logo{
+	opacity:0.9
+}
+@media (max-width: 425px) {
+	.logo{
+		margin-top:20%
+}
+}
+/* -----------------------------------------------div LOGIN----------------------------------------------*/
+/*div input*/
+.login{
+	padding:0!important;
+	margin-top:5%;
+}
+.unos{
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	line-height:40px;
+	padding-left:5px;
+	border:1px solid #0398db;
+	font-weight:300;
+}
+@media (max-width: 425px) {
+	.login{
+		margin-top:8%;
+	}
+}
+/* -----------------------------------------------div search----------------------------------------------*/
+.div-search{
+	margin-top:30px;
+}
+.div-search-inner{
+	padding:12px 0;
+	color:#FFFFFF;
+	background:rgba(117,157,227,0.7);
+	border:1px solid #2d3e50;
+	border-radius:5px;
+	cursor: pointer
+}
+.div-search-inner:hover{
+	background:rgba(117,157,227,1)
+}
+
+

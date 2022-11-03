@@ -1,0 +1,265 @@
+body{
+	background: rgba(117,157,227,0.3);
+	font-family: 'Montserrat',Arial, sans-serif;
+}
+.wrapper{
+	background:#fff;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+@media screen and (max-width: 768px) {
+	.wrapper{
+		margin-top:5%;
+	}
+}
+/* -----------------------------------------------div LEFT - RIGHT -corner + language----------------------------------------------*/
+.left-corner, .right-corner{
+	padding:0!important;
+}
+.right-corner{
+	margin-top:50px;
+}
+.img-sert{
+	opacity:0.8;
+}
+.wrap-lang{
+	padding:0!important;
+	margin-top:3% ;
+}
+.div-srb, .div-eng{
+	padding:0!important;
+	cursor:pointer;
+}
+.img-lang{
+	border:4px solid rgba(117,157,227,0.2);
+	opacity:0.9;
+}
+.img-lang:hover{
+	border:4px solid rgba(117,157,227,0.8);
+}
+@media screen and (max-width: 768px) {
+	.wrap-lang{
+		border:padding:0!important ;
+		margin-top:5% ;
+}
+	.img-lang{
+		border:2px solid rgba(117,157,227,0.4);
+		opacity:0.9;
+}
+}
+/* -----------------------------------------------LOGO----------------------------------------------*/
+.logo{
+	opacity:0.9;
+	margin-top: -2%;
+}
+@media (max-width: 768px) {
+	.logo{
+		margin-top:15%;
+}
+}
+/* -----------------------------------------------SERTIFIKAT naslov----------------------------------------------*/
+.sertifikat{
+	margin-top:70px;
+	font-size:2em;
+	color:#6C7888;
+	font-weight:500;
+}
+@media (max-width: 768px) {
+	.sertifikat{
+		margin-top:40px;
+		font-size:1.5em;
+	}
+}
+/* -----------------------------------------------SERTIFIKAT podaci----------------------------------------------*/
+.ime-prezime-wrap{
+	margin-top:30px;
+	line-height:60px;
+	color:#2D2D2D;
+	font-weight:bold;
+	color:#81a8cf;
+	font-size:2.5em; 
+}
+
+
+.dugme-scratch-level-img{  position:relative; top:15px;
+}
+
+.dugme-scratch-level-img:hover{  animation: scratch-level-dugme linear 0.8s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  cursor:pointer;
+
+ 
+ }
+@keyframes scratch-level-dugme{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    transform:  translate(-5px,0px)  ;
+  }
+  20% {
+    transform:  translate(5px,0px)  ;
+  }
+  30% {
+    transform:  translate(-5px,0px)  ;
+  }
+  40% {
+    transform:  translate(5px,0px)  ;
+  }
+  50% {
+    transform:  translate(-5px,0px)  ;
+  }
+  60% {
+    transform:  translate(5px,0px)  ;
+  }
+  70% {
+    transform:  translate(-5px,0px)  ;
+  }
+  80% {
+    transform:  translate(5px,0px)  ;
+  }
+  90% {
+    transform:  translate(-5px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+
+.podatak-wrap{
+	margin-top:25px;
+	line-height:20px;
+}
+.podatak-naziv{
+	text-align:right ;
+}
+.podatak{
+	font-weight:500;
+	color:#81a8cf;
+	font-size:1.1em ;
+}
+@media (max-width: 425px) {
+	.ime-prezime-wrap{
+		line-height:30px;
+		font-size:1.5em;
+		margin-top:20px;
+		text-align:center;
+	}
+	
+	
+
+	.podatak-wrap{
+		margin-top:25px;
+		line-height:19px;
+	}
+	.podatak-naziv{
+		font-size:0.9em;
+		text-align:left;
+		padding-left:0!important;
+	}
+	.podatak{
+		font-size:0.9em;
+		padding-left:0!important;
+		padding-right:0!important;
+	}
+}
+
+@media (max-width: 991px){
+
+.dugme-scratch-level-img{text-align:center!important;  display:block; margin:0 auto}
+}
+
+/* -----------------------------------------------PROFESORI----------------------------------------------*/
+.profesori-naslov{
+	margin-top:70px;
+	margin-bottom:50px;
+}
+.prof1-wrap{
+	background: #F0F0F0;
+	border-right:10px solid #fff;
+}
+.prof2-wrap{
+	background:#F0F0F0;
+	border-left:10px solid #fff ;
+}
+.prof-text-wrap{
+	padding:0;
+	line-height:40px;
+	font-weight:800;
+	color:#81a8cf ;
+	font-size:1.1em ;
+}
+.prof-text{
+	margin-top:50px;
+	height:160px ;
+}
+.prof-slika-wrap{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.prof-slika-wrap > img{ border:2px solid  rgba(117,157,227,0.8)}
+@media (max-width: 768px) {
+	.prof1-wrap{
+		border:2px solid #fff;
+		border-top: none;
+		border-bottom-width:25px;
+               
+}
+	.prof2-wrap{
+		border:2px solid #fff;
+		border-top: none;
+		border-bottom: none;
+		padding-bottom:30px ;
+}
+	.prof-text{
+		margin-top:20px;
+		height:100px ;
+}
+
+	.prof-text-2{
+		margin-top:0;
+		height:100px ;
+}
+	.prof-slika-wrap1{
+		margin-top:40px;
+}
+}
+.div-search-inner{
+	padding:5px 0;
+	color:#FFFFFF;
+	background:rgba(117,157,227,0.6);
+	border:1px solid #2d3e50;
+	border-radius:5px;
+	cursor: pointer;
+	font-size:0.9em;
+	font-weight:300;
+	line-height:20px;
+}
+.div-search-inner:hover{
+	background:rgba(117,157,227,1);
+}
+/* -----------------------------------------------dugme-nazad----------------------------------------------*/
+.dugme-nazad-wrap{
+	margin-top:90px;
+}
+.dugme-nazad{
+	border-radius:5px;
+	padding:10px;
+	font-size:1em;
+	background: #FAFAFA;
+	color:#0699db;
+	border:1px solid #81a8cf;
+	box-shadow: 2px 2px 30px 0px rgba(50, 50, 50, 0.3); 
+}
+.dugme-nazad:hover{
+	color:#FFFFFF;
+	background:rgba(117,157,227,1);
+	border:1px solid #2d3e50;
+}
+@media (max-width: 768px) {
+	.dugme-nazad-wrap{
+		margin-top:60px;
+}
+}

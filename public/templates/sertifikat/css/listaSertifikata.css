@@ -1,0 +1,184 @@
+body{
+	background: rgba(117,157,227,0.3);
+	font-family: 'Montserrat',Arial, sans-serif;
+}
+.wrapper{
+	background:#fff;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+@media screen and (max-width: 768px) {
+	.wrapper{
+		margin-top:5%;
+	}
+}
+/* -----------------------------------------------div LEFT - RIGHT -corner + language----------------------------------------------*/
+.div-logo{
+	margin-top:5%;
+	padding-left:0!important
+}
+.wrap-lang{
+	padding:0!important;
+	margin-top:8%
+}
+.div-srb, .div-eng{
+	padding:0!important;
+	cursor:pointer;
+}
+.img-lang{
+	border:4px solid rgba(117,157,227,0.2);
+	opacity:0.9;
+}
+.img-lang:hover{
+	border:4px solid rgba(117,157,227,0.8)
+}
+@media screen and (max-width: 768px) {
+	.div-logo{
+		margin-top:12%;
+		padding-left:10px!important
+}
+	.wrap-lang{
+		border:padding:0!important;
+		margin-top:13%
+}
+	.img-lang{
+		border:2px solid rgba(117,157,227,0.4);
+		opacity:0.9
+}
+}
+/* -----------------------------------------------LOGO----------------------------------------------*/
+.logo{
+	opacity:0.9;
+	margin-top: -2%
+}
+.wrap-all{
+	background: #F4F4FF;
+	margin-top:80px;
+	border:1px solid rgba(117,157,227,0.4);
+	border-radius:5px;
+	padding:20px;
+}
+.ime-prezime-wrap{
+	margin-top:20px;
+	line-height:60px;
+	font-weight:bold;
+	color:#81a8cf;
+	font-size:2.5em;
+}
+.listaSertifikata-naslov{
+	color:#fbb43c;
+	font-size:2em;
+	margin-top:30px
+}
+.wrap-row-lista{
+	margin-bottom:50px
+}
+.wrap-row-naziv-broj{
+	margin-top:50px;
+	border-bottom:1px solid #E4E4E4;
+	border-top:1px solid #E4E4E4;
+}
+.naziv{
+	border-right:1px solid #E4E4E4;
+	padding:30px 5px;
+	line-height:20px
+}
+.broj{
+	padding:30px 10px;
+	line-height:20px
+}
+.kurs-row{
+	margin-top:0;
+	border-bottom:1px solid #E4E4E4
+}
+.kurs-change{
+	border-right:1px solid #E4E4E4;
+	padding:40px 10px;
+	text-transform:uppercase;
+	font-size:0.9em
+}
+.broj-sert-change{
+	padding:40px 15px;
+	font-size:0.9em;
+}
+.wrap-img-cumLaude{
+	padding:10px 0
+}
+.img-cumLaude-change{
+	width:80px
+}
+@media (max-width: 425px) {
+	.wrap-all{
+		margin-top:50px;
+		border-radius:0;
+		padding:20px;
+		border:none;
+		border-top:1px solid rgba(117,157,227,0.4);
+	}
+	.ime-prezime-wrap{
+		line-height:30px;
+		font-size:25px;
+		margin-top:20px;
+		text-align:center;
+		margin-top:40px
+}
+	.listaSertifikata-naslov{
+		font-size:18px;
+	}
+	.wrap-row-lista{
+		margin-bottom:30px
+}
+	.wrap-row-naziv-broj{
+		font-size:13px;
+		padding-left:0!important;
+	}
+	.kurs-row{
+		padding-left:0!important;
+	}
+	.kurs-change{
+		border-right:1px solid #E4E4E4;
+		line-height:30px;
+		padding:20px 5px!important;
+		font-size:12px
+}
+	.broj-sert-change{
+		line-height:30px;
+		padding:20px 5px!important;
+		font-size:12px
+}
+	.img-cumLaude-change{
+		width:50px
+}
+}
+/* -----------------------------------------------dugme-nazad----------------------------------------------*/
+.dugme-nazad-wrap{
+	margin-top:90px;
+	margin-bottom:90px
+}
+.dugme-nazad{
+	border-radius:5px;
+	padding:10px;
+	font-size:1em;
+	background: #FAFAFA;
+	color:#0699db;
+	border:1px solid #81a8cf;
+	box-shadow: 2px 2px 15px 0px rgba(50, 50, 50, 0.3);
+}
+
+.dugme-nazad:hover{
+	color:#FFFFFF;
+	background:rgba(117,157,227,1);
+	border:1px solid #2d3e50;
+	text-decoration:none
+}
+@media (max-width: 768px) {
+	.dugme-nazad-wrap{
+		margin-top:30px;
+		margin-bottom:60px;
+		font-size:14px
+}
+	.nazad-pocetna{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+}
